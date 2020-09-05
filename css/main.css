@@ -1,0 +1,36 @@
+#gameBoardContainer{
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
+#gameBoard {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    height: 100%;
+    border: solid 1px black;
+    font-size: 5rem;
+}
+
+.emptyBlock {
+    background: grey;
+    border: solid 1px black;
+}
+
+.xBlock{
+    display: grid;
+    place-items: center;
+    box-sizing:border-box;
+    border: solid 1px black;
+    background: darkviolet;
+}
+
+.oBlock{
+    display: grid;
+    place-items: center;
+    box-sizing:border-box;
+    border: solid 1px black;
+    background: darkturquoise;
+}
